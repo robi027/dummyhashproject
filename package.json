@@ -1,0 +1,26 @@
+{
+  "name": "dummyhashproject",
+  "version": "1.0.0",
+  "description": "dummy",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robi027/dummyhashproject.git"
+  },
+  "keywords": [
+    "dummyhashproject"
+  ],
+  "author": "robi027",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robi027/dummyhashproject/issues"
+  },
+  "homepage": "https://github.com/robi027/dummyhashproject#readme"
+}
