@@ -1,13 +1,8 @@
-const port = 3000
+const express = require("express");
+const app = express();
 
-module.exports = function(app){
-    
-    app.listen(port, (err) => {
+app.use(express.static(__dirname + '/views'));
 
-        if (err) {
-          return console.log('something bad happened', err)
-        }
-        
-        console.log(`server is listening on ${port} bro`)
-      })
-}
+var port = process.env.PORT || 3000;
+
+app.listen (port, ()=> console.log(`server running ${port}`));
